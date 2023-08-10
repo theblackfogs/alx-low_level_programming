@@ -2,9 +2,8 @@
 
 /*
  * int main - main function
- * description - prints the string value and return 0
- * void - the function does not take any inputs
- * retun 0
+ * @description - prints the string value and return 0
+ * @retun 0
  */
 
 int main(void)
