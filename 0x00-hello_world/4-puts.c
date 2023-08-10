@@ -2,8 +2,8 @@
 
 /*
  * main - Entry point of the program
- * @void: the function has no paramaters 
- * Description: prints the string value 
+ * @void: the function has no paramaters
+ * Description: print the string value
  * Return: zero value
  */
 
