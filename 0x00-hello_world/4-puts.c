@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /*
- * main - main function
+ * main - Entry point of the program
  * @void: the function has no paramaters 
- * Description: prints the string value and return 0
- * @retun: zero value
+ * Description: prints the string value 
+ * Return: zero value
  */
 
 int main(void)
