@@ -6,7 +6,7 @@
  * Description: print some words to the screen
  * @void: takes no parameters
  *
- * Return: zero 
+ * Return: zero value 
  */
 
 int main(void)
