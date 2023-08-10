@@ -2,7 +2,7 @@
 
 /*
  * int main - main function
- * @description - prints the string value and return 0
+ * Description - prints the string value and return 0
  * @retun 0
  */
 
