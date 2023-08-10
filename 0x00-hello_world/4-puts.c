@@ -3,7 +3,7 @@
 /*
  * main - Entry point of the program
  * @void: the function has no paramaters
- * Description: print the string value
+ * Description: print some words to the screen
  * Return: zero value
  */
 
