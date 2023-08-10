@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /*
- * main - Entry point of the program
- * @void: the function has no paramaters
+ * main - Entry point
+ *
  * Description: print some words to the screen
- * Return: zero value
+ * @void: takes no parameters
+ *
+ * Return: zero 
  */
 
 int main(void)
