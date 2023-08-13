@@ -8,8 +8,16 @@
  *
  * Return: Always 1 (Success)
  */
+
 int main(void)
 {
-	echo "";
+	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	int i = 0;
+
+	for (i = 0; quote[i] != '\0'; i++)
+	{
+		putchar(quote[i]);
+	}
+
 	return (1);
 }
