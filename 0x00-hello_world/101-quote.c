@@ -11,12 +11,12 @@
 
 int main(void)
 {
-	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char q[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	int i = 0;
 
-	for (i = 0; quote[i] != '\0'; i++)
+	for (i = 0; q[i] != '\0'; i++)
 	{
-		putchar(quote[i]);
+		putchar(q[i]);
 	}
 
 	return (1);
