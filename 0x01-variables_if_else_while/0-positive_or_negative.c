@@ -15,9 +15,10 @@
 int main(void)
 {
 	long int n = 0;
-	
+	int lower = -98, upper = 98;
+
 	srand(time(NULL));
-	n = rand() % 98;
+	n = (rand() % (upper - lower + 1)) + lower;
 
 	if (n > 0)
 	{
