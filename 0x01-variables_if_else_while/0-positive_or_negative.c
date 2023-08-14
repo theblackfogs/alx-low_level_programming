@@ -15,8 +15,9 @@
 int main(void)
 {
 	long int n = 0;
+	
 	srand(time(NULL));
-	n = rand();
+	n = rand() % 100;
 
 	if (n > 0)
 	{
