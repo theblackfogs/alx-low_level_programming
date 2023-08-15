@@ -13,6 +13,10 @@
 
 int main(void)
 {
-	print_alphabet_x10();
+	int n;
+
+	n = _islower('h');
+	_putchar(n + '0');
+
 	return (0);
 }
