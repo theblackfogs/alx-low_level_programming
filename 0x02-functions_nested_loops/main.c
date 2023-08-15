@@ -15,13 +15,15 @@ int main(void)
 {
 	int n;
 
-	n = _isalpha('h');
+	n = print_sign(9);
 	_putchar(n + '0');
 
-	n = _isalpha('H');
+	n = print_sign(0);
 	_putchar(n + '0');
 
-	n = _isalpha('\0');
+	n = print_sign(-9008);
 	_putchar(n + '0');
+
+	_putchar('\n');
 	return (0);
 }
