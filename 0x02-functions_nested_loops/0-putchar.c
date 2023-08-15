@@ -13,5 +13,5 @@ int main(void)
 {
 	printf("_putchar\n");
 
-	return (1);
+	return (0);
 }
