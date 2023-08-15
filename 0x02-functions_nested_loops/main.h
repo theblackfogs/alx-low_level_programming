@@ -2,6 +2,8 @@
 #define MAIN_H_
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
+
 
 int print_last_digit(int);
 int _abs(int);
