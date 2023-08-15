@@ -15,8 +15,13 @@ int main(void)
 {
 	int n;
 
-	n = _islower('h');
+	n = _isalpha('h');
 	_putchar(n + '0');
 
+	n = _isalpha('H');
+	_putchar(n + '0');
+
+	n = _isalpha('\0');
+	_putchar(n + '0');
 	return (0);
 }
