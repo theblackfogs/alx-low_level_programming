@@ -13,14 +13,11 @@
 
 int main(void)
 {
-	int n;
 
-	n = _abs(-78);
-	printf("%d", n);
-	n = _abs(0);
-	printf("%d",n);
-	n = _abs(65);
-	printf("%d", n);
+	print_last_digit(9);
+	print_last_digit(89);
+	print_last_digit(0);
+	print_last_digit(-8484848);
 
 	return (0);
 }
