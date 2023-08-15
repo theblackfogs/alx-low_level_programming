@@ -15,15 +15,12 @@ int main(void)
 {
 	int n;
 
-	n = print_sign(9);
-	_putchar(n + '0');
+	n = _abs(-78);
+	printf("%d", n);
+	n = _abs(0);
+	printf("%d",n);
+	n = _abs(65);
+	printf("%d", n);
 
-	n = print_sign(0);
-	_putchar(n + '0');
-
-	n = print_sign(-9008);
-	_putchar(n + '0');
-
-	_putchar('\n');
 	return (0);
 }
