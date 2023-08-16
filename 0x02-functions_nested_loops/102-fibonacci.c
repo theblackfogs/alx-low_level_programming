@@ -42,7 +42,7 @@ void fibonacci1(void)
 
 	printf("%d, %d, ", 1, 2);
 
-	for (i = 3; i < 48; i++)
+	for (i = 3; i < 50; i++)
 	{
 		total = first + second;
 		printf("%ld, ", total);
