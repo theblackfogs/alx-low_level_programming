@@ -1,5 +1,15 @@
-#include "main.h"
+#include <stdio.h>
 
+
+/**
+ *main - Entry point
+ *
+ * Description: main function
+ * @void: no parameter
+ *
+ *
+ * Return: 0 (Success)
+ */
 
 /**
  *multiples_1024 - function
@@ -11,6 +21,15 @@
  * Return: nothing
  */
 
+
+void multiples_1024(void);
+
+int main(void)
+{
+	multiples_1024();
+
+	return (0);
+}
 void multiples_1024(void)
 {
 	int i, n;
