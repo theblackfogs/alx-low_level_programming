@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 
+
 /**
  *main - Entry point
  *
@@ -11,26 +12,27 @@
  * Return: 0 (Success)
  */
 
-/**
- *multiples_1024 - function
- *
- * Description: print some text to the screen
- * @void: no  parameter
- *
- *
- * Return: nothing
- */
 
-
-void multiples_1024(void);
+void sum(void);
 
 int main(void)
 {
-	multiples_1024();
+	sum();
 
 	return (0);
 }
-void multiples_1024(void)
+
+/**
+ *sum - simple summing function
+ *
+ *Description: print some of multiples
+ *@void: no paramters
+ *
+ *Return: nothing
+ */
+
+
+void sum(void)
 {
 	int i, n;
 
