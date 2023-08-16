@@ -26,7 +26,12 @@ void jack_bauer(void)
 					printf("0%d:%d\n", i, j);
 			}
 			else
-				printf("%d:%d\n", i, j);
+			{
+				if (j <= 9)
+					printf("%d:0%d\n", i, j);
+				else
+					printf("%d:%d\n", i, j);
+			}
 		}
 	}
 }
