@@ -5,6 +5,7 @@
 #include <limits.h>
 
 
+void multiples_1024(void);
 void print_to_98(int n);
 int add(int, int);
 void times_table(void);
