@@ -50,6 +50,6 @@ void fibonacci2(void)
 		second = total;
 	}
 
-	printf("%ld\n", sum);
+	printf("%ld\n", sum += 2);
 
 }
