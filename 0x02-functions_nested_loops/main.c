@@ -13,6 +13,8 @@
 
 int main(void)
 {
-	jack_bauer();
+	int n;
+	n = add(90, 90);
+	printf("%d \n", n);
 	return (0);
 }
