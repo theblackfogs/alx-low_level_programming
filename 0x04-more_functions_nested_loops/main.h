@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
+int mul(int a, int b);
 int _isdigit(int c);
 int _isupper(int c);
 void multiples_1024(void);
