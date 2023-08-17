@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	print_line(0);
-	print_line(12);
+	print_diagonal(0);
+	print_diagonal(12);
 	return (0);
 }
