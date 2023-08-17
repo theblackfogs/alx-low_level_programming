@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
-
+void fizz_buzz(void);
 void print_square(int size);
 void print_diagonal(int n);
 void print_line(int n);

@@ -13,7 +13,6 @@
 
 int main(void)
 {
-	print_square(0);
-	print_square(12);
+	fizz_buzz();
 	return (0);
 }
