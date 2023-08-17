@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
+int _isdigit(int c);
 int _isupper(int c);
 void multiples_1024(void);
 void print_to_98(int n);

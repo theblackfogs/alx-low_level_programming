@@ -15,9 +15,9 @@ int main(void)
 {
 	int n;
 
-	n = _isupper(80);
-	printf("c: %c : %d\n", 80, n);
-	n = _isupper(122);
-	printf("c: %c : %d\n", 122, n);
+	n = _isdigit('8');
+	printf("c: %d : %d\n", 8, n);
+	n = _isdigit('a');
+	printf("c: %c : %d\n", 'a', n);
 	return (0);
 }
