@@ -13,11 +13,7 @@
 
 int main(void)
 {
-	int n;
-
-	n = _isdigit('8');
-	printf("c: %d : %d\n", 8, n);
-	n = _isdigit('a');
-	printf("c: %c : %d\n", 'a', n);
+	printf("%d\n", mul(98, 1024));
+	printf("%d\n", mul(-402, 4096));
 	return (0);
 }
