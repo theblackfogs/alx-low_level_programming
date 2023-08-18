@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
+void more_numbers(void);
 void print_triangle(int size);
 void fizz_buzz(void);
 void print_square(int size);
