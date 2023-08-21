@@ -21,6 +21,6 @@ void _puts(char *str)
 		i++;
 	}
 	if (i < 1)
-		continue;
+		fprintf(stderr, "\0");	
 	putchar('\n');
 }
