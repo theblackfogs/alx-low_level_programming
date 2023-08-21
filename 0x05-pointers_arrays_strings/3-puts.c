@@ -21,6 +21,6 @@ void _puts(char *str)
 		i++;
 	}
 	if (i < 1)
-		putchar('0');
+		break;
 	putchar('\n');
 }
