@@ -26,6 +26,7 @@ void print_array(int *a, int n)
 	}
 	else
 	{
-		fprintf(stderr, "e");
+		printf("e");
+		fprintf(stderr, "The value of n must be > 1");
 	}
 }
