@@ -2,6 +2,7 @@
 #define MAIN_H_
 #include <stdio.h>
 
+void print_array(int *a, int n);
 void swap_int(int *a, int *b);
 void reset_to_98(int *n);
 
