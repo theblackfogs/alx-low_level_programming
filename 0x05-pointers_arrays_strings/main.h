@@ -1,6 +1,7 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 #include <stdio.h>
+#include <errno.h>
 
 void print_rev(char *s);
 void _puts(char *str);

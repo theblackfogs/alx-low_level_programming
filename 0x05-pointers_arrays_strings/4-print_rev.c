@@ -22,6 +22,8 @@ void print_rev(char *s)
 		i++;
 	}
 
+	if (length < 1)
+		printf("%d", errno);
 	while (length >= 0)
 	{
 		printf("%c", *(s + length));
