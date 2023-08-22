@@ -23,6 +23,7 @@ void print_rev(char *s)
 	}
 
 	if (length < 1)
+		putchar('0');
 	else
 	{
 		while (length >= 0)
