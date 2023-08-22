@@ -23,7 +23,7 @@ void print_rev(char *s)
 	}
 
 	if (length < 1)
-		printf("%d", errno);
+		putchar('0');
 	while (length >= 0)
 	{
 		printf("%c", *(s + length));
