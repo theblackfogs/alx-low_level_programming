@@ -2,6 +2,7 @@
 #define MAIN_H_
 #include <stdio.h>
 #include <errno.h>
+#include <stdlib.h>
 
 void print_rev(char *s);
 void _puts(char *str);
