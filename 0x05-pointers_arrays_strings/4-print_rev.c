@@ -23,11 +23,13 @@ void print_rev(char *s)
 	}
 
 	if (length < 1)
-		putchar('0');
-	while (length >= 0)
+	else
 	{
-		printf("%c", *(s + length));
-		length--;
+		while (length >= 0)
+		{
+			printf("%c", *(s + length));
+			length--;
+		}
+		putchar('\n');
 	}
-	putchar('\n');
 }
