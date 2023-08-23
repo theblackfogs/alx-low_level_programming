@@ -3,7 +3,9 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stdlib.h>
+#include <string.h>
 
+char *_strcpy(char *dest, char *src);
 void print_rev(char *s);
 void _puts(char *str);
 int _strlen(char *s);
