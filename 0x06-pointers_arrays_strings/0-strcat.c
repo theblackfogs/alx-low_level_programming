@@ -15,8 +15,9 @@ char *_strcat(char *dest, char *src)
 	int i, j, last;
 	int length2, limit, x;
 
+	x = 0;
 	length2 = sizeof(src);
-
+	
 	for (i = 0; *(dest + i) != '\0'; i++)
 		last = i;
 
@@ -28,6 +29,6 @@ char *_strcat(char *dest, char *src)
 		x++;
 	}
 	*(dest + limit) = '\0';
-
+	printf("%s\n", dest);
 	return (dest);
 }
