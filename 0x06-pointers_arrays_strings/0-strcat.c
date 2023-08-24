@@ -12,22 +12,18 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i, j, last;
-	int length2, limit, x;
+	int i = 0, j = 0;
 
-	x = 0;
-	length2 = sizeof(src);
-	for (i = 0; *(dest + i) != '\0'; i++)
-		last = i;
+	while (*(dest + i) != '\0')
+		i++;
 
-	limit = last + length2;
-
-	for (j = last + 1; j < limit; j++)
+	while (j >= 0)
 	{
-		*(dest + j) = *(src + x);
-		x++;
+		*(dest + i) = *(src + j);
+		if (*(src + j) == '\0')
+			break;
+		i++;
+		j++;
 	}
-	*(dest + limit) = '\0';
-
 	return (dest);
 }
