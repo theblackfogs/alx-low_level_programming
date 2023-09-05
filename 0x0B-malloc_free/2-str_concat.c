@@ -16,13 +16,13 @@ char *str_concat(char *s1, char *s2)
 	int size, length, i = 0, j = 0;
 
 	if (s1 == NULL)
-		s1 = NULL;
+		s1 = "";
 	else if (s2 == NULL)
-		s2 = NULL;
+		s2 = "";
 
 	size = strlen(s1) + strlen(s2);
 	j = size - strlen(s2);
-	str = (char *)malloc(size * sizeof(char));
+	str = (char *)malloc(size * sizeof(char) + 1);
 	length = strlen(s1);
 
 	while (i < length)
