@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-	int num1, num2, check;
+	int num1, num2;
 
 	if (argc < 2 || argc > 3)
 		usage();
@@ -57,7 +57,9 @@ int checker(char *s)
 {
 	int i, j, num;
 
-	for (i = 0; i < strlen(s); i++)
+	num = strlen(s);
+
+	for (i = 0; i < num; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
