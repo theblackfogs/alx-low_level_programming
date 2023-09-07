@@ -7,5 +7,6 @@
 
 int checker(char *s);
 void usage(void);
+int *array_range(int min, int max);
 
 #endif
