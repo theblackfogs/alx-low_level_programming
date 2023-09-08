@@ -3,25 +3,33 @@
 /**
  *_calloc - function
  *
- *Description: create an array of integer
+ *Description: allocate memory
  *
  *@nmeb: integer parameter
  *@size: integer parameter
  *
- *Return: NULL or pointer to an array
+ *Return: NULL or pointer
  */
-
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	unsigned int *arr;
-	
+	void *memory;
+	char *filler;
+	unsigned int i;
+
+
 	if (nmeb == 0 || size == 0)
 		return (NULL);
 
-	arr = malloc(nmeb * size);
+	memory = malloc(size * nmemb);
 
-	if (arr == NULL)
+	if (memory == NULL)
 		return (NULL);
-	
+
+	filler = memory;
+
+	for (i = 0; i < (size * nmemb); i++)
+		filler[i] = '\0';
+
+	return (memory);
 }
