@@ -3,6 +3,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#define ABS(x) (abs(x))
+#define ABS(x) abs(x)
 #endif
 
