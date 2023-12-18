@@ -1,18 +1,13 @@
 #include "main.h"
 
-
 /**
- * main - Entry point
+ * main - check the code
  *
- * Description: print some text to the screen
- * @void: no parameters
- *
- * Return: 0 
+ * Return: Always 0.
  */
-
-
 int main(void)
 {
-	multiples_1024();
-	return (0);
+    times_table();
+    return (0);
 }
+
