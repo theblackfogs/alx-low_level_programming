@@ -13,14 +13,7 @@ void _puts(char *str)
 {
 	int i;
 
-	i = 0;
-
-	while (*(str + i) != '\0')
-	{
-		printf("%c", *(str + i));
-		i++;
-	}
-	if (i < 1)
-		printf("0");
-	putchar('\n');
+	for (i = 0; *(str + i) != '\0'; i++)
+		_putchar(*(str + i));
+	_putchar('\n');
 }
