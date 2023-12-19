@@ -11,29 +11,38 @@
 
 void print_rev(char *s)
 {
-	int i, length;
+	int i, len;
 
-	length = 0;
-	i = 0;
-
-	while (*(s + i) != '\0')
-	{
-		length = i;
-		i++;
-	}
-
-	if (length < 1)
-	{
-		putchar('0');
-		exit(-1);
-	}
-	else
-	{
-		while (length >= 0)
-		{
-			printf("%c", *(s + length));
-			length--;
-		}
-		putchar('\n');
-	}
+	len = _strlen(s);
+	for (i = 0; len >= i; len--)
+		_putchar(*(s + len));
+	_putchar('\n');
 }
+
+/**
+ *_strlen - function
+ *
+ * Description: return the string length
+ * @s:pointer of char parameter
+ *
+ * Return: integer of string length
+ */
+
+int _strlen(char *s)
+{
+        int i, length;
+
+        length = 0;
+        i = 0;
+
+        while (*(s + i) != '\0')
+        {
+                length = i;
+                i++;
+        }
+        if (length < 1)
+                return (0);
+        ++length;
+        return (length);
+}
+
